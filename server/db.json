@@ -1,0 +1,72 @@
+{
+  "plans": [
+    {
+      "id" : 1,
+      "name" : "Farmer",
+      "description" : "Farmer Plan",
+      "maxUsersAllowed" : 1,
+      "maxFarmlandsPerUser" : 1,
+      "monthlyPrice" : 0.0
+    },
+    {
+      "id" : 2,
+      "name" : "Cooperative",
+      "description" : "Cooperative Plan",
+      "maxUsersAllowed" : 20,
+      "maxFarmlandsPerUser" : 5,
+      "monthlyPrice" : 8.0
+    },
+    {
+      "id" : 3,
+      "name" : "Corporate",
+      "description" : "Corporate Plan",
+      "maxUsersAllowed" : 100,
+      "maxFarmlandsPerUser" : 100,
+      "monthlyPrice" : 16.0
+    }
+  ],
+  "benefits": [
+    {
+      "id": 1,
+      "title": "Community Support",
+      "description": "Free Support Channels",
+      "value": "Support Community Forum",
+      "planId" : 1
+    },
+    {
+      "id": 2,
+      "title": "Basic Support",
+      "description": "Basic Support Channels",
+      "value": "Support by Email",
+      "planId" : 2
+    },
+    {
+      "id": 3,
+      "title": "Premium Support",
+      "description": "Premium Support Channels",
+      "value": "Call Center",
+      "planId" : 3
+    },
+    {
+      "id": 4,
+      "title": "Free Storage",
+      "description": "Storage Space",
+      "value": "Local device",
+      "planId" : 1
+    },
+    {
+      "id": 5,
+      "title": "Basic Storage",
+      "description": "Basic Storage Space",
+      "value": "10 GB",
+      "planId" : 2
+    },
+    {
+      "id": 6,
+      "title": "Premium",
+      "description": "Premium Storage Space",
+      "value": "100 GB",
+      "planId" : 3
+    }
+  ]
+}
